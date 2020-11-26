@@ -41,3 +41,10 @@ hr {
 }
 
 /* lists */
+.list-non-bullet {
+  list-style-type: none;
+}
+.list-inline-item {
+  display: inline;
+  padding: 0 0.5rem;
+}
