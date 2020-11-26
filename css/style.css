@@ -46,5 +46,31 @@ hr {
 }
 .list-inline-item {
   display: inline;
-  padding: 0 0.5rem;
+  padding: 1rem;
+}
+
+/* nav */
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+  color: white;
+  font-size: 1.1rem;
+}
+.nav-brand {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+.nav-pills {
+  display: flex;
+  justify-content: flex-end;
+}
+.link-active {
+  font-weight: bold;
 }
